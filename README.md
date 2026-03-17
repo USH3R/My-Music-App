@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+This repository does not include the node_modules or .next folders because they are automatically generated during installation and can be very large. These folders are rebuilt locally when the project dependencies are installed and the application is built. This keeps the repository lightweight and within GitHub’s file size limits while still allowing the full application to be reconstructed.
+
+To rebuild these folders, first install Node.js from https://nodejs.org
+. After downloading this repository, open a terminal inside the project folder and run npm install. This will automatically recreate the node_modules directory and download all required dependencies listed in package.json. After that, run npm run build to regenerate the .next build folder. Once those steps are complete, the project can be started normally using npm start.
+
 ## Getting Started
 
 First, run the development server:
