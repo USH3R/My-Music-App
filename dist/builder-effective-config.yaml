@@ -1,0 +1,16 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.my-music-app
+productName: Bizgig
+files:
+  - filter:
+      - '**/*'
+win:
+  target: nsis
+nsis:
+  oneClick: false
+  perMachine: true
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+electronVersion: 39.2.7
