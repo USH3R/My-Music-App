@@ -1,3 +1,8 @@
+## 🚀 How to Run the Music Player Demo
+Open a terminal and run:
+bash demo.sh
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 **Some files are missing. Contact developer for information, questions, or to request all files and folders.
