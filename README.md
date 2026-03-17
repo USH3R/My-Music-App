@@ -1,31 +1,36 @@
-# My Music App
-**Standalone networked music player built with Electron and Visual Studio Code.**
----
-## Overview
-MyMusicApp is a fully functional music player that can be run locally, accessed via web browser, or installed as a standalone `.exe`. The project demonstrates hands-on software development using JavaScript, TypeScript, Node.js, and Electron.
----
-## Features
-- Local app: Launch and play music directly from the folder.  
-- Web version: Access the music player via URL from any device.  
-- Installable `.exe`: Full installer for cross-device usage.  
-- MP3 playback support.  
-- Clean, modular codebase in JS/TS for easy extension.
----
-## Technologies Used
-- Visual Studio Code  
-- Electron  
-- JavaScript / TypeScript  
-- Node.js  
----
-## Usage
-1. **Local:** Open the folder and run the app directly.  
-2. **Web:** Navigate to the provided URL in a browser.  
-3. **Installer:** Run the `.exe` file to install and launch MyMusicApp on any Windows machine.
----
-## Notes
-This project demonstrates efficient software assembly using pre-existing code libraries, Electron integration, and practical implementation of cross-platform music playback.
----
-## Recapitulation of App Highlights:
-- Three modes (local, w eb, installer)
-- Technologies used (Electron, VS Code, JS/TS)
-- Practical, hands-on development skills developed a Digital Music Player
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
