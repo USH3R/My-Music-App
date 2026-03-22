@@ -1,6 +1,18 @@
-## 🚀 How to Run the Music Player Demo
-Open a terminal and run:
-bash demo.sh
+## 🚀 How to Run the Music Player App
+
+1. Open Codespace (Github) or any terminal and type this:
+         
+         bash demo.sh
+         
+2. Or try the manual executable way (optional):
+   Open Codespace (Github) or any terminal and type this:
+         
+         chmod +x demo.sh
+         
+   Press enter.
+   Then type:
+         
+         ./demo.sh
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
